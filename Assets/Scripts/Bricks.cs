@@ -15,10 +15,6 @@ public class Bricks : MonoBehaviour
             {
                 Destroy(gameObject);
             }
-            else
-            {
-                Physics.IgnoreCollision(collision.collider, GetComponent<Collider>());
-            }
         }
     }
 }

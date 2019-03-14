@@ -17,7 +17,8 @@ public class BallMovement : MonoBehaviour
         rend = GetComponent<Renderer>();
         rend.enabled = true;
         Vector3 myVector = new Vector3(1.0f * 10, 5.0f, 0.0f);
-
+        Physics.IgnoreLayerCollision(9, 11);
+        Physics.IgnoreLayerCollision(10, 11);
         rb.velocity = myVector;
     }
 
@@ -30,12 +31,16 @@ public class BallMovement : MonoBehaviour
         {
             case "1":
                 rend.sharedMaterial = materials[0];
+                Physics.IgnoreLayerCollision(9, 11); //darkblue and ball
+                Physics.IgnoreLayerCollision(10, 11); //lightblue and ball
                 break;
             case "2":
                 rend.sharedMaterial = materials[1];
+                Physics.IgnoreLayerCollision(9, 11, false);
                 break;
             case "3":
                 rend.sharedMaterial = materials[2];
+                Physics.IgnoreLayerCollision(10, 11, false);
                 break;
         }
     }
@@ -58,19 +63,11 @@ public class BallMovement : MonoBehaviour
             //print(collision.relativeVelocity);
         }
         if(otherRb.gameObject.tag.Equals("Brick"))
-        {
-            Color brickColor = collision.gameObject.GetComponent<Renderer>().material.color;
-            Color selfColor = GetComponent<Renderer>().material.color;
-            if (brickColor.Equals(selfColor))
-            {
-                float newY = Math.Abs(rb.velocity.y);
-                if (newY < .01) newY += 5.0f;
-                rb.velocity = new Vector3(rb.velocity.x, -newY, rb.velocity.z);
-            }
-            else
-            {
-                Physics.IgnoreCollision(collision.collider, GetComponent<Collider>());
-            }
+        {   
+            float newY = Math.Abs(rb.velocity.y);
+            if (newY < .01) newY += 5.0f;
+            rb.velocity = new Vector3(rb.velocity.x, -newY, rb.velocity.z);
+            print("collided");
         }
     }
 }
