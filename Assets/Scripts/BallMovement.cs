@@ -41,10 +41,10 @@ public class BallMovement : MonoBehaviour
     }
 
     private void OnCollisionEnter(Collision collision)
-    {
+    {   
         Rigidbody otherRb = collision.rigidbody;
         if (otherRb == null) return;
-
+        
         //For some reason it was having problems when it collided with the
         //paddle, so these are some manual, hacky attempts to fix it.
         if (otherRb.gameObject.name == "Paddle")
@@ -57,12 +57,20 @@ public class BallMovement : MonoBehaviour
             //print(rb.velocity.y);
             //print(collision.relativeVelocity);
         }
-        if(otherRb.gameObject.tag == "Brick")
+        if(otherRb.gameObject.tag.Equals("Brick"))
         {
-            float newY = Math.Abs(rb.velocity.y);
-            if (newY < .01) newY += 5.0f;
-            rb.velocity = new Vector3(rb.velocity.x, -newY, rb.velocity.z);
+            Color brickColor = collision.gameObject.GetComponent<Renderer>().material.color;
+            Color selfColor = GetComponent<Renderer>().material.color;
+            if (brickColor.Equals(selfColor))
+            {
+                float newY = Math.Abs(rb.velocity.y);
+                if (newY < .01) newY += 5.0f;
+                rb.velocity = new Vector3(rb.velocity.x, -newY, rb.velocity.z);
+            }
+            else
+            {
+                Physics.IgnoreCollision(collision.collider, GetComponent<Collider>());
+            }
         }
     }
-
 }

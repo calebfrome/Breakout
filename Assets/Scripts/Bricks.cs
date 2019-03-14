@@ -6,19 +6,19 @@ public class Bricks : MonoBehaviour
 {
     private void OnCollisionEnter(Collision collision)
     {  
-        if (collision.gameObject.name == "Ball")
+        if (collision.gameObject.name.Equals("Ball"))
         {   
             Color ballColor = collision.gameObject.GetComponent<Renderer>().material.color;
             Color selfColor = GetComponent<Renderer>().material.color;
             print(selfColor + " vs. " + ballColor);
-            if (ballColor == selfColor)
+            if (ballColor.Equals(selfColor))
             {
                 Destroy(gameObject);
             }
-            //else
-            //{
-            //    Physics.IgnoreCollision(collision.collider, GetComponent<Collider>());
-            //}
+            else
+            {
+                Physics.IgnoreCollision(collision.collider, GetComponent<Collider>());
+            }
         }
     }
 }
