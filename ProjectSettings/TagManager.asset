@@ -5,6 +5,10 @@ TagManager:
   serializedVersion: 2
   tags:
   - Brick
+  - Wall
+  - Ball
+  - DeadZone
+  - Paddle
   layers:
   - Default
   - TransparentFX
@@ -15,9 +19,9 @@ TagManager:
   - 
   - 
   - PostProcessing
-  - 
-  - 
-  - 
+  - DarkBlueBlocks
+  - LightBlueBlocks
+  - Ball
   - 
   - 
   - 

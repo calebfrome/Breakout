@@ -29,17 +29,19 @@ public class BallMovement : MonoBehaviour
         string input = Input.inputString;
         switch (input)
         {
-            case "1":
+            case "1": //pink
                 rend.sharedMaterial = materials[0];
                 Physics.IgnoreLayerCollision(9, 11); //darkblue and ball
                 Physics.IgnoreLayerCollision(10, 11); //lightblue and ball
                 break;
-            case "2":
+            case "2": //dark blue
                 rend.sharedMaterial = materials[1];
                 Physics.IgnoreLayerCollision(9, 11, false);
+                Physics.IgnoreLayerCollision(10, 11);
                 break;
-            case "3":
+            case "3": //lightblue
                 rend.sharedMaterial = materials[2];
+                Physics.IgnoreLayerCollision(9, 11);
                 Physics.IgnoreLayerCollision(10, 11, false);
                 break;
         }
@@ -64,9 +66,18 @@ public class BallMovement : MonoBehaviour
         }
         if(otherRb.gameObject.tag.Equals("Brick"))
         {   
-            float newY = Math.Abs(rb.velocity.y);
-            if (newY < .01) newY += 5.0f;
-            rb.velocity = new Vector3(rb.velocity.x, -newY, rb.velocity.z);
+            float newY = rb.velocity.y;
+            print(newY);
+            if (newY < 0) {
+                if (Math.Abs(newY) < 0.01) newY -= 5.0f;
+                rb.velocity = new Vector3(rb.velocity.x,  Math.Abs(newY), rb.velocity.z);
+            }
+            else
+            {
+                if (Math.Abs(newY) < 0.01) newY += 5.0f;
+                rb.velocity = new Vector3(rb.velocity.x, -1 * Math.Abs(newY), rb.velocity.z);
+            }
+            
             print("collided");
         }
     }

@@ -8,13 +8,7 @@ public class Bricks : MonoBehaviour
     {  
         if (collision.gameObject.name.Equals("Ball"))
         {   
-            Color ballColor = collision.gameObject.GetComponent<Renderer>().material.color;
-            Color selfColor = GetComponent<Renderer>().material.color;
-            print(selfColor + " vs. " + ballColor);
-            if (ballColor.Equals(selfColor))
-            {
-                Destroy(gameObject);
-            }
+            Destroy(gameObject);
         }
     }
 }
