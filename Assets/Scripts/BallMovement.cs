@@ -19,6 +19,7 @@ public class BallMovement : MonoBehaviour
         Vector3 myVector = new Vector3(1.0f * 10, 5.0f, 0.0f);
         Physics.IgnoreLayerCollision(9, 11);
         Physics.IgnoreLayerCollision(10, 11);
+        Physics.IgnoreLayerCollision(12, 11);
         rb.velocity = myVector;
     }
 
@@ -33,16 +34,25 @@ public class BallMovement : MonoBehaviour
                 rend.sharedMaterial = materials[0];
                 Physics.IgnoreLayerCollision(9, 11); //darkblue and ball
                 Physics.IgnoreLayerCollision(10, 11); //lightblue and ball
+                Physics.IgnoreLayerCollision(12, 11); //goldmetal and ball
                 break;
             case "2": //dark blue
                 rend.sharedMaterial = materials[1];
                 Physics.IgnoreLayerCollision(9, 11, false);
                 Physics.IgnoreLayerCollision(10, 11);
+                Physics.IgnoreLayerCollision(12, 11);
                 break;
             case "3": //lightblue
                 rend.sharedMaterial = materials[2];
                 Physics.IgnoreLayerCollision(9, 11);
                 Physics.IgnoreLayerCollision(10, 11, false);
+                Physics.IgnoreLayerCollision(12, 11);
+                break;
+            case "4": //gold metal
+                rend.sharedMaterial = materials[3];
+                Physics.IgnoreLayerCollision(9, 11);
+                Physics.IgnoreLayerCollision(10, 11);
+                Physics.IgnoreLayerCollision(12, 11, false);
                 break;
         }
     }
