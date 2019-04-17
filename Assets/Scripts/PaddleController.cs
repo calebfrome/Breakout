@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class PaddleController : MonoBehaviour
 {
-    private Rigidbody rb;
-
     private void Start()
     {
-        rb = GetComponent<Rigidbody>();
     }
 
     void FixedUpdate()
@@ -17,8 +14,10 @@ public class PaddleController : MonoBehaviour
 
         Vector3 myVector = new Vector3(moveHorizontal*25, 0.0f, 0.0f);
 
-        //rb.AddForce(moveHorizontal*50, 0.0f, 0.0f);
-        //rb.AddForce(moveHorizontal, 0.0f, 0.0f, ForceMode.VelocityChange);
-        rb.velocity = myVector;
+        double dx = myVector.x * Time.deltaTime;
+        if(this.transform.position.x + dx < 12.5 && this.transform.position.x + dx > -12.5)
+        {
+            transform.Translate(myVector * Time.deltaTime);
+        }
     }
 }

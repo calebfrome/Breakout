@@ -68,9 +68,9 @@ public class BallMovement : MonoBehaviour
         {
             //print("It hit the paddle.");
             //print("velocity before: " + rb.velocity.y);
-            float newY = Math.Abs(rb.velocity.y);
+            /*float newY = Math.Abs(rb.velocity.y);
             if (Math.Abs(newY) < .01) newY += 5.0f;
-            rb.velocity = new Vector3(rb.velocity.x, newY, rb.velocity.z);
+            rb.velocity = new Vector3(rb.velocity.x, newY, rb.velocity.z);*/
             //print(rb.velocity.y);
             //print(collision.relativeVelocity);
         }
@@ -87,7 +87,20 @@ public class BallMovement : MonoBehaviour
                 if (Math.Abs(newY) < 0.01) newY += 5.0f;
                 rb.velocity = new Vector3(rb.velocity.x, -1 * Math.Abs(newY), rb.velocity.z);
             }
-            
+
+            /*float newX = rb.velocity.x;
+            print(newX);
+            if (newX < 0)
+            {
+                if (Math.Abs(newX) < 0.01) newX -= 5.0f;
+                rb.velocity = new Vector3(Math.Abs(newX), rb.velocity.y, rb.velocity.z);
+            }
+            else
+            {
+                if (Math.Abs(newX) < 0.01) newX += 5.0f;
+                rb.velocity = new Vector3(-1 * Math.Abs(newX), rb.velocity.y, rb.velocity.z);
+            }*/
+
             print("collided");
         }
     }

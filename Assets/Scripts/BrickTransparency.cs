@@ -18,27 +18,27 @@ public class BrickTransparency : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        string input = Input.inputString;
+        /*string input = Input.inputString;
         switch (input)
         {
-            case "1":
+            case "1": //pink
                 rend.sharedMaterial = materials[0];
                 break;
-            case "2":
+            case "2": //dark blue
                 rend.sharedMaterial = materials[0];
                 if (gameObject.layer == 9)
                     rend.sharedMaterial = materials[1];
                 break;
-            case "3":
+            case "3": //light blue
                 rend.sharedMaterial = materials[0];
                 if (gameObject.layer == 10)
                     rend.sharedMaterial = materials[1];
                 break;
-            case "4":
+            case "4": //metal
                 rend.sharedMaterial = materials[0];
                 if (gameObject.layer == 12)
                     rend.sharedMaterial = materials[1];
                 break;
-        }
+        }*/
     }
 }
