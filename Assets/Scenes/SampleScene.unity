@@ -125,8 +125,6 @@ GameObject:
   - component: {fileID: 60838156}
   - component: {fileID: 60838155}
   - component: {fileID: 60838159}
-  - component: {fileID: 60838160}
-  - component: {fileID: 60838161}
   m_Layer: 9
   m_Name: Brick (46)
   m_TagString: Brick
@@ -218,35 +216,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &60838160
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60838154}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &60838161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 60838154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -263,8 +232,6 @@ GameObject:
   - component: {fileID: 87544484}
   - component: {fileID: 87544483}
   - component: {fileID: 87544487}
-  - component: {fileID: 87544488}
-  - component: {fileID: 87544489}
   m_Layer: 10
   m_Name: Brick (21)
   m_TagString: Brick
@@ -356,35 +323,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &87544488
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87544482}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &87544489
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 87544482}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -401,8 +339,6 @@ GameObject:
   - component: {fileID: 110929511}
   - component: {fileID: 110929510}
   - component: {fileID: 110929514}
-  - component: {fileID: 110929515}
-  - component: {fileID: 110929516}
   m_Layer: 9
   m_Name: Brick (7)
   m_TagString: Brick
@@ -494,35 +430,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &110929515
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110929509}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &110929516
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 110929509}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -539,8 +446,6 @@ GameObject:
   - component: {fileID: 143074363}
   - component: {fileID: 143074362}
   - component: {fileID: 143074366}
-  - component: {fileID: 143074367}
-  - component: {fileID: 143074368}
   m_Layer: 9
   m_Name: Brick (44)
   m_TagString: Brick
@@ -632,35 +537,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &143074367
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143074361}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &143074368
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 143074361}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -677,7 +553,6 @@ GameObject:
   - component: {fileID: 151628900}
   - component: {fileID: 151628899}
   - component: {fileID: 151628898}
-  - component: {fileID: 151628897}
   - component: {fileID: 151628896}
   m_Layer: 12
   m_Name: Metal (5)
@@ -703,22 +578,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 709de31049d6e4d7dbf1e21acb9691fc, type: 2}
   - {fileID: 2100000, guid: 8058e36981a0547939027873ca312390, type: 2}
   - {fileID: 2100000, guid: 9866391440bc44fa6b7d1531f36746f5, type: 2}
---- !u!54 &151628897
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 151628895}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &151628898
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -820,8 +679,6 @@ GameObject:
   - component: {fileID: 167752375}
   - component: {fileID: 167752374}
   - component: {fileID: 167752378}
-  - component: {fileID: 167752379}
-  - component: {fileID: 167752380}
   m_Layer: 10
   m_Name: Brick (19)
   m_TagString: Brick
@@ -913,35 +770,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &167752379
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167752373}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &167752380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 167752373}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -958,8 +786,6 @@ GameObject:
   - component: {fileID: 181431438}
   - component: {fileID: 181431437}
   - component: {fileID: 181431441}
-  - component: {fileID: 181431442}
-  - component: {fileID: 181431443}
   m_Layer: 9
   m_Name: Brick (20)
   m_TagString: Brick
@@ -1051,35 +877,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &181431442
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181431436}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &181431443
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 181431436}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -1096,8 +893,6 @@ GameObject:
   - component: {fileID: 192471222}
   - component: {fileID: 192471221}
   - component: {fileID: 192471225}
-  - component: {fileID: 192471226}
-  - component: {fileID: 192471227}
   m_Layer: 10
   m_Name: Brick (10)
   m_TagString: Brick
@@ -1189,35 +984,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &192471226
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192471220}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &192471227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 192471220}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -1234,8 +1000,6 @@ GameObject:
   - component: {fileID: 198197542}
   - component: {fileID: 198197541}
   - component: {fileID: 198197545}
-  - component: {fileID: 198197546}
-  - component: {fileID: 198197547}
   m_Layer: 9
   m_Name: Brick (5)
   m_TagString: Brick
@@ -1327,35 +1091,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &198197546
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198197540}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &198197547
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 198197540}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -1373,7 +1108,6 @@ GameObject:
   - component: {fileID: 199795837}
   - component: {fileID: 199795836}
   - component: {fileID: 199795835}
-  - component: {fileID: 199795834}
   m_Layer: 12
   m_Name: Metal (1)
   m_TagString: Brick
@@ -1381,22 +1115,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &199795834
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 199795833}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &199795835
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1404,7 +1122,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 199795833}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
   m_Name: 
@@ -1412,6 +1130,8 @@ MonoBehaviour:
   materials:
   - {fileID: 2100000, guid: fe69d936ee8644c2485d40f2ac75d61f, type: 2}
   - {fileID: 2100000, guid: 709de31049d6e4d7dbf1e21acb9691fc, type: 2}
+  - {fileID: 2100000, guid: 8058e36981a0547939027873ca312390, type: 2}
+  - {fileID: 2100000, guid: 9866391440bc44fa6b7d1531f36746f5, type: 2}
 --- !u!114 &199795836
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1515,8 +1235,6 @@ GameObject:
   - component: {fileID: 211406599}
   - component: {fileID: 211406598}
   - component: {fileID: 211406602}
-  - component: {fileID: 211406603}
-  - component: {fileID: 211406604}
   m_Layer: 9
   m_Name: Brick (39)
   m_TagString: Brick
@@ -1608,35 +1326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &211406603
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211406597}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &211406604
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 211406597}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -1653,8 +1342,6 @@ GameObject:
   - component: {fileID: 296127295}
   - component: {fileID: 296127294}
   - component: {fileID: 296127298}
-  - component: {fileID: 296127299}
-  - component: {fileID: 296127300}
   m_Layer: 9
   m_Name: Brick (11)
   m_TagString: Brick
@@ -1746,35 +1433,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &296127299
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 296127293}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &296127300
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 296127293}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -1791,8 +1449,6 @@ GameObject:
   - component: {fileID: 409432209}
   - component: {fileID: 409432208}
   - component: {fileID: 409432212}
-  - component: {fileID: 409432213}
-  - component: {fileID: 409432214}
   m_Layer: 9
   m_Name: Brick (22)
   m_TagString: Brick
@@ -1884,35 +1540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &409432213
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409432207}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &409432214
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 409432207}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -1929,8 +1556,6 @@ GameObject:
   - component: {fileID: 436792947}
   - component: {fileID: 436792946}
   - component: {fileID: 436792950}
-  - component: {fileID: 436792951}
-  - component: {fileID: 436792952}
   m_Layer: 9
   m_Name: Brick (42)
   m_TagString: Brick
@@ -2022,35 +1647,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &436792951
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436792945}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &436792952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 436792945}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -2066,6 +1662,7 @@ GameObject:
   - component: {fileID: 452225221}
   - component: {fileID: 452225220}
   - component: {fileID: 452225219}
+  - component: {fileID: 452225223}
   m_Layer: 0
   m_Name: Wall2
   m_TagString: Wall
@@ -2145,6 +1742,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 61
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &452225223
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 452225218}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &480982911
 GameObject:
   m_ObjectHideFlags: 0
@@ -2158,8 +1771,6 @@ GameObject:
   - component: {fileID: 480982913}
   - component: {fileID: 480982912}
   - component: {fileID: 480982916}
-  - component: {fileID: 480982917}
-  - component: {fileID: 480982918}
   m_Layer: 10
   m_Name: Brick (53)
   m_TagString: Brick
@@ -2251,35 +1862,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &480982917
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480982911}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &480982918
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 480982911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -2311,7 +1893,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 488335798}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 43eb40e0d93d245ca85b8db85135586f, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2503,7 +2085,6 @@ GameObject:
   - component: {fileID: 537532130}
   - component: {fileID: 537532129}
   - component: {fileID: 537532128}
-  - component: {fileID: 537532132}
   - component: {fileID: 537532133}
   m_Layer: 0
   m_Name: Paddle
@@ -2519,7 +2100,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 537532127}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: b1e207e8acf904840a7dc666ba3e13c3, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -2584,22 +2165,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &537532132
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 537532127}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 124
-  m_CollisionDetection: 3
 --- !u!114 &537532133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2625,8 +2190,6 @@ GameObject:
   - component: {fileID: 567292973}
   - component: {fileID: 567292972}
   - component: {fileID: 567292976}
-  - component: {fileID: 567292977}
-  - component: {fileID: 567292978}
   m_Layer: 9
   m_Name: Brick (3)
   m_TagString: Brick
@@ -2718,35 +2281,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &567292977
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 567292971}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &567292978
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 567292971}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -2763,8 +2297,6 @@ GameObject:
   - component: {fileID: 577853393}
   - component: {fileID: 577853392}
   - component: {fileID: 577853396}
-  - component: {fileID: 577853397}
-  - component: {fileID: 577853398}
   m_Layer: 10
   m_Name: Brick (51)
   m_TagString: Brick
@@ -2856,35 +2388,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &577853397
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577853391}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &577853398
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 577853391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -2901,8 +2404,6 @@ GameObject:
   - component: {fileID: 603546306}
   - component: {fileID: 603546305}
   - component: {fileID: 603546309}
-  - component: {fileID: 603546310}
-  - component: {fileID: 603546311}
   m_Layer: 10
   m_Name: Brick (4)
   m_TagString: Brick
@@ -2994,35 +2495,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &603546310
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603546304}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &603546311
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603546304}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -3039,8 +2511,6 @@ GameObject:
   - component: {fileID: 610784131}
   - component: {fileID: 610784130}
   - component: {fileID: 610784134}
-  - component: {fileID: 610784135}
-  - component: {fileID: 610784136}
   m_Layer: 9
   m_Name: Brick (29)
   m_TagString: Brick
@@ -3132,35 +2602,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &610784135
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 610784129}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &610784136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 610784129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -3177,9 +2618,6 @@ GameObject:
   - component: {fileID: 633515304}
   - component: {fileID: 633515303}
   - component: {fileID: 633515307}
-  - component: {fileID: 633515308}
-  - component: {fileID: 633515310}
-  - component: {fileID: 633515309}
   m_Layer: 10
   m_Name: Brick (55)
   m_TagString: Brick
@@ -3271,48 +2709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &633515308
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 633515302}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &633515309
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 633515302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  materials: []
---- !u!114 &633515310
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 633515302}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -3329,7 +2725,6 @@ GameObject:
   - component: {fileID: 651138009}
   - component: {fileID: 651138008}
   - component: {fileID: 651138007}
-  - component: {fileID: 651138006}
   - component: {fileID: 651138005}
   m_Layer: 12
   m_Name: Metal (4)
@@ -3355,22 +2750,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 709de31049d6e4d7dbf1e21acb9691fc, type: 2}
   - {fileID: 2100000, guid: 8058e36981a0547939027873ca312390, type: 2}
   - {fileID: 2100000, guid: 9866391440bc44fa6b7d1531f36746f5, type: 2}
---- !u!54 &651138006
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 651138004}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &651138007
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3472,8 +2851,6 @@ GameObject:
   - component: {fileID: 662867303}
   - component: {fileID: 662867302}
   - component: {fileID: 662867306}
-  - component: {fileID: 662867307}
-  - component: {fileID: 662867308}
   m_Layer: 10
   m_Name: Brick (49)
   m_TagString: Brick
@@ -3565,35 +2942,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &662867307
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662867301}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &662867308
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 662867301}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -3610,8 +2958,6 @@ GameObject:
   - component: {fileID: 685692509}
   - component: {fileID: 685692508}
   - component: {fileID: 685692512}
-  - component: {fileID: 685692513}
-  - component: {fileID: 685692514}
   m_Layer: 9
   m_Name: Brick (26)
   m_TagString: Brick
@@ -3703,35 +3049,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &685692513
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685692507}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &685692514
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 685692507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -3748,8 +3065,6 @@ GameObject:
   - component: {fileID: 686939074}
   - component: {fileID: 686939073}
   - component: {fileID: 686939077}
-  - component: {fileID: 686939078}
-  - component: {fileID: 686939079}
   m_Layer: 10
   m_Name: Brick (27)
   m_TagString: Brick
@@ -3841,35 +3156,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &686939078
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686939072}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &686939079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 686939072}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -3886,8 +3172,6 @@ GameObject:
   - component: {fileID: 762238053}
   - component: {fileID: 762238052}
   - component: {fileID: 762238056}
-  - component: {fileID: 762238057}
-  - component: {fileID: 762238058}
   m_Layer: 9
   m_Name: Brick (18)
   m_TagString: Brick
@@ -3979,35 +3263,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &762238057
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762238051}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &762238058
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 762238051}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -4024,8 +3279,6 @@ GameObject:
   - component: {fileID: 861702464}
   - component: {fileID: 861702463}
   - component: {fileID: 861702467}
-  - component: {fileID: 861702468}
-  - component: {fileID: 861702469}
   m_Layer: 10
   m_Name: Brick (40)
   m_TagString: Brick
@@ -4117,35 +3370,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &861702468
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861702462}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &861702469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 861702462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -4162,9 +3386,6 @@ GameObject:
   - component: {fileID: 902370648}
   - component: {fileID: 902370647}
   - component: {fileID: 902370651}
-  - component: {fileID: 902370652}
-  - component: {fileID: 902370654}
-  - component: {fileID: 902370653}
   m_Layer: 10
   m_Name: Brick
   m_TagString: Brick
@@ -4257,51 +3478,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   materials:
-  - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
---- !u!54 &902370652
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902370646}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &902370653
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902370646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  materials:
-  - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
-  - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
---- !u!114 &902370654
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 902370646}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
 --- !u!1 &906446151
@@ -4317,8 +3493,6 @@ GameObject:
   - component: {fileID: 906446153}
   - component: {fileID: 906446152}
   - component: {fileID: 906446156}
-  - component: {fileID: 906446157}
-  - component: {fileID: 906446158}
   m_Layer: 10
   m_Name: Brick (36)
   m_TagString: Brick
@@ -4410,35 +3584,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &906446157
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906446151}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &906446158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 906446151}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -4455,8 +3600,6 @@ GameObject:
   - component: {fileID: 951944769}
   - component: {fileID: 951944768}
   - component: {fileID: 951944772}
-  - component: {fileID: 951944773}
-  - component: {fileID: 951944774}
   m_Layer: 9
   m_Name: Brick (41)
   m_TagString: Brick
@@ -4548,35 +3691,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &951944773
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951944767}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &951944774
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 951944767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -4593,8 +3707,6 @@ GameObject:
   - component: {fileID: 957340884}
   - component: {fileID: 957340883}
   - component: {fileID: 957340887}
-  - component: {fileID: 957340888}
-  - component: {fileID: 957340889}
   m_Layer: 9
   m_Name: Brick (16)
   m_TagString: Brick
@@ -4686,35 +3798,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &957340888
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 957340882}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &957340889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 957340882}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -4800,8 +3883,6 @@ GameObject:
   - component: {fileID: 1000109982}
   - component: {fileID: 1000109981}
   - component: {fileID: 1000109985}
-  - component: {fileID: 1000109986}
-  - component: {fileID: 1000109987}
   m_Layer: 10
   m_Name: Brick (25)
   m_TagString: Brick
@@ -4893,35 +3974,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1000109986
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000109980}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1000109987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1000109980}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -4938,8 +3990,6 @@ GameObject:
   - component: {fileID: 1010164395}
   - component: {fileID: 1010164394}
   - component: {fileID: 1010164398}
-  - component: {fileID: 1010164399}
-  - component: {fileID: 1010164400}
   m_Layer: 9
   m_Name: Brick (24)
   m_TagString: Brick
@@ -5031,35 +4081,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1010164399
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010164393}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1010164400
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1010164393}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -5076,8 +4097,6 @@ GameObject:
   - component: {fileID: 1044006620}
   - component: {fileID: 1044006619}
   - component: {fileID: 1044006623}
-  - component: {fileID: 1044006624}
-  - component: {fileID: 1044006625}
   m_Layer: 10
   m_Name: Brick (15)
   m_TagString: Brick
@@ -5169,35 +4188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1044006624
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044006618}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1044006625
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1044006618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -5214,8 +4204,6 @@ GameObject:
   - component: {fileID: 1046436464}
   - component: {fileID: 1046436463}
   - component: {fileID: 1046436467}
-  - component: {fileID: 1046436468}
-  - component: {fileID: 1046436469}
   m_Layer: 10
   m_Name: Brick (34)
   m_TagString: Brick
@@ -5307,35 +4295,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1046436468
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046436462}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1046436469
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1046436462}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -5353,7 +4312,6 @@ GameObject:
   - component: {fileID: 1071225856}
   - component: {fileID: 1071225855}
   - component: {fileID: 1071225854}
-  - component: {fileID: 1071225853}
   m_Layer: 12
   m_Name: Metal (2)
   m_TagString: Brick
@@ -5361,22 +4319,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!54 &1071225853
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1071225852}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1071225854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5564,8 +4506,6 @@ GameObject:
   - component: {fileID: 1128062600}
   - component: {fileID: 1128062599}
   - component: {fileID: 1128062603}
-  - component: {fileID: 1128062604}
-  - component: {fileID: 1128062605}
   m_Layer: 10
   m_Name: Brick (6)
   m_TagString: Brick
@@ -5657,35 +4597,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1128062604
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1128062598}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1128062605
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1128062598}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -5702,8 +4613,6 @@ GameObject:
   - component: {fileID: 1182448698}
   - component: {fileID: 1182448697}
   - component: {fileID: 1182448701}
-  - component: {fileID: 1182448702}
-  - component: {fileID: 1182448703}
   m_Layer: 9
   m_Name: Brick (31)
   m_TagString: Brick
@@ -5795,35 +4704,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1182448702
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1182448696}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1182448703
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1182448696}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -5840,8 +4720,6 @@ GameObject:
   - component: {fileID: 1194950278}
   - component: {fileID: 1194950277}
   - component: {fileID: 1194950281}
-  - component: {fileID: 1194950282}
-  - component: {fileID: 1194950283}
   m_Layer: 10
   m_Name: Brick (30)
   m_TagString: Brick
@@ -5933,35 +4811,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1194950282
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194950276}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1194950283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1194950276}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -5977,8 +4826,6 @@ GameObject:
   - component: {fileID: 1250429520}
   - component: {fileID: 1250429519}
   - component: {fileID: 1250429518}
-  - component: {fileID: 1250429523}
-  - component: {fileID: 1250429522}
   - component: {fileID: 1250429524}
   m_Layer: 12
   m_Name: Metal
@@ -6060,37 +4907,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 67
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!54 &1250429522
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250429517}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1250429523
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1250429517}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  materials:
-  - {fileID: 2100000, guid: fe69d936ee8644c2485d40f2ac75d61f, type: 2}
-  - {fileID: 2100000, guid: 709de31049d6e4d7dbf1e21acb9691fc, type: 2}
 --- !u!114 &1250429524
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6121,8 +4937,6 @@ GameObject:
   - component: {fileID: 1266263697}
   - component: {fileID: 1266263696}
   - component: {fileID: 1266263700}
-  - component: {fileID: 1266263701}
-  - component: {fileID: 1266263702}
   m_Layer: 9
   m_Name: Brick (13)
   m_TagString: Brick
@@ -6214,35 +5028,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1266263701
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266263695}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1266263702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1266263695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -6259,8 +5044,6 @@ GameObject:
   - component: {fileID: 1268423488}
   - component: {fileID: 1268423487}
   - component: {fileID: 1268423491}
-  - component: {fileID: 1268423492}
-  - component: {fileID: 1268423493}
   m_Layer: 9
   m_Name: Brick (52)
   m_TagString: Brick
@@ -6352,35 +5135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1268423492
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268423486}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1268423493
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1268423486}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -6397,8 +5151,6 @@ GameObject:
   - component: {fileID: 1285962156}
   - component: {fileID: 1285962155}
   - component: {fileID: 1285962159}
-  - component: {fileID: 1285962160}
-  - component: {fileID: 1285962161}
   m_Layer: 9
   m_Name: Brick (50)
   m_TagString: Brick
@@ -6490,35 +5242,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1285962160
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285962154}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1285962161
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1285962154}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -6535,8 +5258,6 @@ GameObject:
   - component: {fileID: 1321846850}
   - component: {fileID: 1321846849}
   - component: {fileID: 1321846853}
-  - component: {fileID: 1321846854}
-  - component: {fileID: 1321846855}
   m_Layer: 10
   m_Name: Brick (47)
   m_TagString: Brick
@@ -6628,35 +5349,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1321846854
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321846848}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1321846855
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1321846848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -6673,8 +5365,6 @@ GameObject:
   - component: {fileID: 1340446448}
   - component: {fileID: 1340446447}
   - component: {fileID: 1340446451}
-  - component: {fileID: 1340446452}
-  - component: {fileID: 1340446453}
   m_Layer: 9
   m_Name: Brick (54)
   m_TagString: Brick
@@ -6766,35 +5456,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1340446452
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340446446}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1340446453
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340446446}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -6811,8 +5472,6 @@ GameObject:
   - component: {fileID: 1373952131}
   - component: {fileID: 1373952130}
   - component: {fileID: 1373952134}
-  - component: {fileID: 1373952135}
-  - component: {fileID: 1373952136}
   m_Layer: 9
   m_Name: Brick (9)
   m_TagString: Brick
@@ -6904,35 +5563,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1373952135
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373952129}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1373952136
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1373952129}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -6949,8 +5579,6 @@ GameObject:
   - component: {fileID: 1378374051}
   - component: {fileID: 1378374050}
   - component: {fileID: 1378374054}
-  - component: {fileID: 1378374055}
-  - component: {fileID: 1378374056}
   m_Layer: 10
   m_Name: Brick (43)
   m_TagString: Brick
@@ -7042,35 +5670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1378374055
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1378374049}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1378374056
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1378374049}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -7087,8 +5686,6 @@ GameObject:
   - component: {fileID: 1437124430}
   - component: {fileID: 1437124429}
   - component: {fileID: 1437124433}
-  - component: {fileID: 1437124434}
-  - component: {fileID: 1437124435}
   m_Layer: 9
   m_Name: Brick (14)
   m_TagString: Brick
@@ -7180,35 +5777,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1437124434
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437124428}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1437124435
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1437124428}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -7225,8 +5793,6 @@ GameObject:
   - component: {fileID: 1441333021}
   - component: {fileID: 1441333020}
   - component: {fileID: 1441333024}
-  - component: {fileID: 1441333025}
-  - component: {fileID: 1441333026}
   m_Layer: 10
   m_Name: Brick (23)
   m_TagString: Brick
@@ -7318,35 +5884,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1441333025
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1441333019}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1441333026
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1441333019}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -7363,7 +5900,6 @@ GameObject:
   - component: {fileID: 1466908910}
   - component: {fileID: 1466908909}
   - component: {fileID: 1466908908}
-  - component: {fileID: 1466908907}
   - component: {fileID: 1466908906}
   m_Layer: 12
   m_Name: Metal (3)
@@ -7389,22 +5925,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 709de31049d6e4d7dbf1e21acb9691fc, type: 2}
   - {fileID: 2100000, guid: 8058e36981a0547939027873ca312390, type: 2}
   - {fileID: 2100000, guid: 9866391440bc44fa6b7d1531f36746f5, type: 2}
---- !u!54 &1466908907
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1466908905}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1466908908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7506,8 +6026,6 @@ GameObject:
   - component: {fileID: 1496425035}
   - component: {fileID: 1496425034}
   - component: {fileID: 1496425038}
-  - component: {fileID: 1496425039}
-  - component: {fileID: 1496425040}
   m_Layer: 9
   m_Name: Brick (48)
   m_TagString: Brick
@@ -7599,35 +6117,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1496425039
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496425033}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1496425040
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1496425033}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -7644,7 +6133,6 @@ GameObject:
   - component: {fileID: 1501990088}
   - component: {fileID: 1501990087}
   - component: {fileID: 1501990086}
-  - component: {fileID: 1501990085}
   - component: {fileID: 1501990084}
   m_Layer: 12
   m_Name: Metal (6)
@@ -7670,22 +6158,6 @@ MonoBehaviour:
   - {fileID: 2100000, guid: 709de31049d6e4d7dbf1e21acb9691fc, type: 2}
   - {fileID: 2100000, guid: 8058e36981a0547939027873ca312390, type: 2}
   - {fileID: 2100000, guid: 9866391440bc44fa6b7d1531f36746f5, type: 2}
---- !u!54 &1501990085
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501990083}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!114 &1501990086
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7787,8 +6259,6 @@ GameObject:
   - component: {fileID: 1563851475}
   - component: {fileID: 1563851474}
   - component: {fileID: 1563851478}
-  - component: {fileID: 1563851479}
-  - component: {fileID: 1563851480}
   m_Layer: 10
   m_Name: Brick (17)
   m_TagString: Brick
@@ -7880,35 +6350,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1563851479
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563851473}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1563851480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1563851473}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -7994,8 +6435,6 @@ GameObject:
   - component: {fileID: 1634903211}
   - component: {fileID: 1634903210}
   - component: {fileID: 1634903214}
-  - component: {fileID: 1634903215}
-  - component: {fileID: 1634903216}
   m_Layer: 9
   m_Name: Brick (1)
   m_TagString: Brick
@@ -8087,35 +6526,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1634903215
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1634903209}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1634903216
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1634903209}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -8132,8 +6542,6 @@ GameObject:
   - component: {fileID: 1641294046}
   - component: {fileID: 1641294045}
   - component: {fileID: 1641294049}
-  - component: {fileID: 1641294050}
-  - component: {fileID: 1641294051}
   m_Layer: 10
   m_Name: Brick (38)
   m_TagString: Brick
@@ -8225,35 +6633,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1641294050
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641294044}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1641294051
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641294044}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -8270,8 +6649,6 @@ GameObject:
   - component: {fileID: 1644191520}
   - component: {fileID: 1644191519}
   - component: {fileID: 1644191523}
-  - component: {fileID: 1644191524}
-  - component: {fileID: 1644191525}
   m_Layer: 10
   m_Name: Brick (45)
   m_TagString: Brick
@@ -8363,35 +6740,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1644191524
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1644191518}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1644191525
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1644191518}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -8407,6 +6755,7 @@ GameObject:
   - component: {fileID: 1700138926}
   - component: {fileID: 1700138925}
   - component: {fileID: 1700138924}
+  - component: {fileID: 1700138928}
   m_Layer: 0
   m_Name: Wall3
   m_TagString: Wall
@@ -8486,6 +6835,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 62
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1700138928
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1700138923}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1711922471
 GameObject:
   m_ObjectHideFlags: 0
@@ -8590,8 +6955,6 @@ GameObject:
   - component: {fileID: 1819906374}
   - component: {fileID: 1819906373}
   - component: {fileID: 1819906377}
-  - component: {fileID: 1819906378}
-  - component: {fileID: 1819906379}
   m_Layer: 9
   m_Name: Brick (35)
   m_TagString: Brick
@@ -8683,35 +7046,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1819906378
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1819906372}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1819906379
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1819906372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -8727,6 +7061,7 @@ GameObject:
   - component: {fileID: 1824407872}
   - component: {fileID: 1824407871}
   - component: {fileID: 1824407870}
+  - component: {fileID: 1824407874}
   m_Layer: 0
   m_Name: Wall1
   m_TagString: Wall
@@ -8806,6 +7141,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 60
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!54 &1824407874
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824407869}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1833209573
 GameObject:
   m_ObjectHideFlags: 0
@@ -8819,8 +7170,6 @@ GameObject:
   - component: {fileID: 1833209575}
   - component: {fileID: 1833209574}
   - component: {fileID: 1833209578}
-  - component: {fileID: 1833209579}
-  - component: {fileID: 1833209580}
   m_Layer: 10
   m_Name: Brick (2)
   m_TagString: Brick
@@ -8912,35 +7261,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1833209579
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833209573}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1833209580
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833209573}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -8957,8 +7277,6 @@ GameObject:
   - component: {fileID: 1918206226}
   - component: {fileID: 1918206225}
   - component: {fileID: 1918206229}
-  - component: {fileID: 1918206230}
-  - component: {fileID: 1918206231}
   m_Layer: 9
   m_Name: Brick (37)
   m_TagString: Brick
@@ -9050,35 +7368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &1918206230
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1918206224}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &1918206231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1918206224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -9164,8 +7453,6 @@ GameObject:
   - component: {fileID: 2007048365}
   - component: {fileID: 2007048364}
   - component: {fileID: 2007048368}
-  - component: {fileID: 2007048369}
-  - component: {fileID: 2007048370}
   m_Layer: 10
   m_Name: Brick (8)
   m_TagString: Brick
@@ -9257,35 +7544,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &2007048369
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007048363}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &2007048370
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2007048363}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -9302,8 +7560,6 @@ GameObject:
   - component: {fileID: 2036065716}
   - component: {fileID: 2036065715}
   - component: {fileID: 2036065719}
-  - component: {fileID: 2036065720}
-  - component: {fileID: 2036065721}
   m_Layer: 10
   m_Name: Brick (12)
   m_TagString: Brick
@@ -9395,35 +7651,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &2036065720
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2036065714}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &2036065721
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2036065714}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -9440,8 +7667,6 @@ GameObject:
   - component: {fileID: 2051718548}
   - component: {fileID: 2051718547}
   - component: {fileID: 2051718551}
-  - component: {fileID: 2051718552}
-  - component: {fileID: 2051718553}
   m_Layer: 9
   m_Name: Brick (33)
   m_TagString: Brick
@@ -9533,35 +7758,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &2051718552
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051718546}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &2051718553
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2051718546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 72e60238efb20034a81e758768c5b398, type: 2}
   - {fileID: 2100000, guid: bda3213fcd36d44738687e6cba920194, type: 2}
@@ -9578,8 +7774,6 @@ GameObject:
   - component: {fileID: 2090925704}
   - component: {fileID: 2090925703}
   - component: {fileID: 2090925707}
-  - component: {fileID: 2090925708}
-  - component: {fileID: 2090925709}
   m_Layer: 10
   m_Name: Brick (28)
   m_TagString: Brick
@@ -9671,35 +7865,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &2090925708
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090925702}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &2090925709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2090925702}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
   materials:
   - {fileID: 2100000, guid: 6aa20c8bc3ae2f748a2f3ef030ea185c, type: 2}
   - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
@@ -9716,8 +7881,6 @@ GameObject:
   - component: {fileID: 2094975428}
   - component: {fileID: 2094975427}
   - component: {fileID: 2094975431}
-  - component: {fileID: 2094975432}
-  - component: {fileID: 2094975433}
   m_Layer: 10
   m_Name: Brick (32)
   m_TagString: Brick
@@ -9807,35 +7970,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1be8386536daaf34696bd2e0d01fe40a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  materials: []
---- !u!54 &2094975432
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2094975426}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!114 &2094975433
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2094975426}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 50eccfc40721df1438a460acbb852d10, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   materials:
