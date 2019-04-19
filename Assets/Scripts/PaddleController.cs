@@ -10,11 +10,15 @@ public class PaddleController : MonoBehaviour
 
     void FixedUpdate()
     {
-        float moveHorizontal = Input.GetAxis("Horizontal");
+        float moveHorizontal;
+        Vector3 myVector;
+        double dx;
 
-        Vector3 myVector = new Vector3(moveHorizontal*25, 0.0f, 0.0f);
+        moveHorizontal = Input.GetAxis("Horizontal");
 
-        double dx = myVector.x * Time.deltaTime;
+        myVector = new Vector3(moveHorizontal*25, 0.0f, 0.0f);
+
+        dx = myVector.x * Time.deltaTime;
         if(this.transform.position.x + dx < 12.5 && this.transform.position.x + dx > -12.5)
         {
             transform.Translate(myVector * Time.deltaTime);
