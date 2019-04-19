@@ -53,6 +53,24 @@ public class Bricks : MonoBehaviour
                     delete += 1;
                 }
             }
+            if (gameObject.layer == 9) //Stone bricks
+            {
+                if (rend.material.Equals(materials[0]))
+                {
+                    rend.sharedMaterial = materials[1];
+                }
+                if (rend.material.name.Split(' ')[0].Equals(materials[1].name))
+                {
+                    rend.sharedMaterial = materials[2];
+                    materialType = 2;
+                    return;
+                }
+                if (rend.material.name.Split(' ')[0].Equals(materials[2].name))
+                {
+                    //delete = true;
+                    delete += 1;
+                }
+            }
             else delete += 1;//delete = true;
         }
     }
@@ -73,10 +91,10 @@ public class Bricks : MonoBehaviour
             case "1": //pink
                 rend.sharedMaterial = materials[0];
                 break;
-            case "2": //dark blue
+            case "2": //stone
                 rend.sharedMaterial = materials[0];
                 if (gameObject.layer == 9)
-                    rend.sharedMaterial = materials[1];
+                    rend.sharedMaterial = materials[materialType];
                 break;
             case "3": //light blue
                 rend.sharedMaterial = materials[0];
