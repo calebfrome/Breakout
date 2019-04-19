@@ -36,7 +36,7 @@ public class BallMovement : MonoBehaviour
                 Physics.IgnoreLayerCollision(10, 11); //lightblue and ball
                 Physics.IgnoreLayerCollision(12, 11); //goldmetal and ball
                 break;
-            case "2": //dark blue
+            case "2": //stone
                 rend.sharedMaterial = materials[1];
                 Physics.IgnoreLayerCollision(9, 11, false);
                 Physics.IgnoreLayerCollision(10, 11);
@@ -59,21 +59,11 @@ public class BallMovement : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {   
-        Rigidbody otherRb = collision.rigidbody;
+        /*Rigidbody otherRb = collision.rigidbody;
         if (otherRb == null) return;
         
         //For some reason it was having problems when it collided with the
         //paddle, so these are some manual, hacky attempts to fix it.
-        if (otherRb.gameObject.name == "Paddle")
-        {
-            //print("It hit the paddle.");
-            //print("velocity before: " + rb.velocity.y);
-            /*float newY = Math.Abs(rb.velocity.y);
-            if (Math.Abs(newY) < .01) newY += 5.0f;
-            rb.velocity = new Vector3(rb.velocity.x, newY, rb.velocity.z);*/
-            //print(rb.velocity.y);
-            //print(collision.relativeVelocity);
-        }
         if(otherRb.gameObject.tag.Equals("Brick"))
         {   
             float newY = rb.velocity.y;
@@ -88,20 +78,7 @@ public class BallMovement : MonoBehaviour
                 rb.velocity = new Vector3(rb.velocity.x, -1 * Math.Abs(newY), rb.velocity.z);
             }
 
-            /*float newX = rb.velocity.x;
-            print(newX);
-            if (newX < 0)
-            {
-                if (Math.Abs(newX) < 0.01) newX -= 5.0f;
-                rb.velocity = new Vector3(Math.Abs(newX), rb.velocity.y, rb.velocity.z);
-            }
-            else
-            {
-                if (Math.Abs(newX) < 0.01) newX += 5.0f;
-                rb.velocity = new Vector3(-1 * Math.Abs(newX), rb.velocity.y, rb.velocity.z);
-            }*/
-
             print("collided");
-        }
+        }*/
     }
 }

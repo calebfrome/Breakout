@@ -340,13 +340,14 @@ GameObject:
   - component: {fileID: 95966323}
   - component: {fileID: 95966321}
   - component: {fileID: 95966326}
+  - component: {fileID: 95966322}
   m_Layer: 0
   m_Name: Round Paddle
   m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &95966321
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -359,6 +360,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d53926ee0b1d4960a7f41047348e852, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &95966322
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 95966320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b489661407ad4d96abf1766ad8e0f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paddleType: 4
 --- !u!23 &95966323
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -412,7 +426,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 95966320}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 7, y: -9.25, z: 0}
+  m_LocalPosition: {x: 0, y: -9.25, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2199,6 +2213,7 @@ GameObject:
   - component: {fileID: 537532129}
   - component: {fileID: 537532128}
   - component: {fileID: 537532133}
+  - component: {fileID: 537532132}
   m_Layer: 0
   m_Name: Paddle
   m_TagString: Paddle
@@ -2236,7 +2251,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: db9ad5043e765374ea95e612ca49ba41, type: 2}
+  - {fileID: 2100000, guid: 4a174d8429f294d77aed121f785d5e65, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2278,6 +2293,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &537532132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 537532127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b489661407ad4d96abf1766ad8e0f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paddleType: 1
 --- !u!114 &537532133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4626,13 +4654,14 @@ GameObject:
   - component: {fileID: 1098969508}
   - component: {fileID: 1098969507}
   - component: {fileID: 1098969506}
+  - component: {fileID: 1098969511}
   m_Layer: 14
   m_Name: StonePaddle1
   m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1098969506
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4713,12 +4742,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1098969505}
   m_LocalRotation: {x: 0, y: 0, z: -0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: -7, y: -8.5, z: 0.01}
+  m_LocalPosition: {x: 0.85, y: -8.5, z: 0.01}
   m_LocalScale: {x: 0.75, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -45}
+--- !u!114 &1098969511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1098969505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b489661407ad4d96abf1766ad8e0f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paddleType: 2
 --- !u!1 &1128062598
 GameObject:
   m_ObjectHideFlags: 0
@@ -7513,13 +7555,14 @@ GameObject:
   - component: {fileID: 1874923992}
   - component: {fileID: 1874923991}
   - component: {fileID: 1874923990}
+  - component: {fileID: 1874923995}
   m_Layer: 15
   m_Name: StonePaddle2
   m_TagString: Paddle
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1874923990
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7600,12 +7643,25 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1874923989}
   m_LocalRotation: {x: 0, y: 0, z: 0.38268343, w: 0.92387956}
-  m_LocalPosition: {x: -8.7, y: -8.5, z: 0.01}
+  m_LocalPosition: {x: -0.85, y: -8.5, z: 0.01}
   m_LocalScale: {x: 0.75, y: 1.5, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 45}
+--- !u!114 &1874923995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1874923989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b489661407ad4d96abf1766ad8e0f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  paddleType: 2
 --- !u!1 &1918206224
 GameObject:
   m_ObjectHideFlags: 0
