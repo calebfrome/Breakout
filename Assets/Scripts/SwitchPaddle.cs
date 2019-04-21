@@ -60,7 +60,7 @@ public class SwitchPaddle : MonoBehaviour
                 }
                 break;
             case "3": //light blue
-                if (paddleType == 3 || paddleType == 1) //temporary
+                if (paddleType == 3)
                 {
                     //gameObject.SetActive(false);
                     rend.enabled = true;
