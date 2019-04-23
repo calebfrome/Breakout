@@ -19,6 +19,12 @@ public class Bricks : MonoBehaviour
         {
             rend.sharedMaterial = materials[0];
         }
+
+        if (gameObject.layer == 18)
+        {
+            rend.sharedMaterial = materials[1];
+        }
+        
         //delete = false;
         delete = 0;
     }
@@ -90,6 +96,8 @@ public class Bricks : MonoBehaviour
         {
             case "1": //pink
                 rend.sharedMaterial = materials[0];
+                if (gameObject.layer == 18)
+                    rend.sharedMaterial = materials[1];
                 break;
             case "2": //stone
                 rend.sharedMaterial = materials[0];

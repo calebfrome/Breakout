@@ -35,24 +35,28 @@ public class BallMovement : MonoBehaviour
                 Physics.IgnoreLayerCollision(9, 11); //darkblue and ball
                 Physics.IgnoreLayerCollision(10, 11); //lightblue and ball
                 Physics.IgnoreLayerCollision(12, 11); //goldmetal and ball
+                Physics.IgnoreLayerCollision(18, 11, false); //pink hexagon and ball
                 break;
             case "2": //stone
                 rend.sharedMaterial = materials[1];
                 Physics.IgnoreLayerCollision(9, 11, false);
                 Physics.IgnoreLayerCollision(10, 11);
                 Physics.IgnoreLayerCollision(12, 11);
+                Physics.IgnoreLayerCollision(18, 11);
                 break;
             case "3": //lightblue
                 rend.sharedMaterial = materials[2];
                 Physics.IgnoreLayerCollision(9, 11);
                 Physics.IgnoreLayerCollision(10, 11, false);
                 Physics.IgnoreLayerCollision(12, 11);
+                Physics.IgnoreLayerCollision(18, 11);
                 break;
             case "4": //gold metal
                 rend.sharedMaterial = materials[3];
                 Physics.IgnoreLayerCollision(9, 11);
                 Physics.IgnoreLayerCollision(10, 11);
                 Physics.IgnoreLayerCollision(12, 11, false);
+                Physics.IgnoreLayerCollision(18, 11);
                 break;
         }
     }
