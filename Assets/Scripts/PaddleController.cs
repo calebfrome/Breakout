@@ -19,7 +19,7 @@ public class PaddleController : MonoBehaviour
         myVector = new Vector3(moveHorizontal*25, 0.0f, 0.0f);
 
         dx = myVector.x * Time.deltaTime;
-        if(this.transform.position.x + dx < 12.5 && this.transform.position.x + dx > -12.5)
+        if(this.transform.position.x + dx < 12.75 && this.transform.position.x + dx > -12.75)
         {
             transform.Translate(myVector * Time.deltaTime);
         }
