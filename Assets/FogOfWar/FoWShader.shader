@@ -4,12 +4,6 @@
     {
         _Color ("Main Color", Color) = (1,1,1,1)
         _MainTex ("Albedo Texture", 2D) = "white" {}
-		_Transparency("Transparency", Range(0.0, 1.0)) = 0.25
-		_CutoutThresh("Cutout Threshold", Range(0.0, 1.0)) = 0.2
-		_Distance("Distance", Float) = 1
-		_Amplitude("Amplitude", Float) = 1
-		_Speed("Speed", Float) = 1
-		_Amount("Amount", Range(0.0, 1.0)) = 1
 	}
 
 	SubShader
