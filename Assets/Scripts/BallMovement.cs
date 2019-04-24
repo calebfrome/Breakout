@@ -7,7 +7,7 @@ public class BallMovement : MonoBehaviour
 {
     private Rigidbody rb;
     private Renderer rend;
-    private float constantSpeed = 11.0f;
+    private float constantSpeed = 15.0f;
     public Material[] materials;
 
     // Start is called before the first frame update
