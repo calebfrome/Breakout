@@ -45,21 +45,24 @@ public class Bricks : MonoBehaviour
                 {
                     rend.sharedMaterial = materials[2];
                     materialType = 2;
+                    ScoreKeeping.reportCollision(gameObject.layer, false);
                     return;
                 }
                 if (rend.material.name.Split(' ')[0].Equals(materials[2].name))
                 {
                     rend.sharedMaterial = materials[3];
                     materialType = 3;
+                    ScoreKeeping.reportCollision(gameObject.layer, false);
                     return;
                 }
                 if (rend.material.name.Split(' ')[0].Equals(materials[3].name))
                 {
                     //delete = true;
                     delete += 1;
+                    ScoreKeeping.reportCollision(gameObject.layer, true);
                 }
             }
-            if (gameObject.layer == 9) //Stone bricks
+            else if (gameObject.layer == 9) //Stone bricks
             {
                 if (rend.material.Equals(materials[0]))
                 {
@@ -69,15 +72,21 @@ public class Bricks : MonoBehaviour
                 {
                     rend.sharedMaterial = materials[2];
                     materialType = 2;
+                    ScoreKeeping.reportCollision(gameObject.layer, false);
                     return;
                 }
                 if (rend.material.name.Split(' ')[0].Equals(materials[2].name))
                 {
                     //delete = true;
                     delete += 1;
+                    ScoreKeeping.reportCollision(gameObject.layer, true);
                 }
             }
-            else delete += 1;//delete = true;
+            else
+            {
+                delete += 1;//delete = true;
+                ScoreKeeping.reportCollision(gameObject.layer, true);
+            }
         }
     }
 
