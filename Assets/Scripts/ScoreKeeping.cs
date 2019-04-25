@@ -20,6 +20,7 @@ public class ScoreKeeping : MonoBehaviour
     public Text scoreText;
     public GameObject gameOver;
     public GameObject youWon;
+    public GameObject apertureLight;
 
     // Start is called before the first frame update
     void Start()
@@ -124,6 +125,8 @@ public class ScoreKeeping : MonoBehaviour
         {
             if (framesRemaining > 0) bonus += 0.5;
         }
+        float bonusAsFloat = (float)bonus;
+        apertureLight.transform.localScale = new Vector3(1 + bonusAsFloat/3, 1, 1 + bonusAsFloat/3);
 
         // update score
         score += (int)(baseScoreBoost * bonus);
