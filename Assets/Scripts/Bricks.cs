@@ -95,10 +95,14 @@ public class Bricks : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(delete > 0)
+        if (delete > 0)
         {
-            if (delete > 1) gameObject.SetActive(false); // Destroy(gameObject);
-            delete += 1;
+            if (delete > 1)
+            {
+                gameObject.SetActive(false); // Destroy(gameObject);
+                delete = 0;
+            }
+            else delete += 1;
         }
         string input = Input.inputString;
         switch (input)
