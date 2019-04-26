@@ -17,14 +17,13 @@ public class SwitchPaddle : MonoBehaviour
 
         if (paddleType == 1)
         {
-            //gameObject.SetActive(true);
             rend.enabled = true;
             myCollider.enabled = true;
             apertureLight.SetActive(true);
         }
         else
         {
-            rend.enabled = false;//gameObject.SetActive(false);
+            rend.enabled = false;
             myCollider.enabled = false;
             apertureLight.SetActive(false);
         }
@@ -39,14 +38,13 @@ public class SwitchPaddle : MonoBehaviour
             case "1": //pink
                 if (paddleType == 1)
                 {
-                    //gameObject.SetActive(false);
                     rend.enabled = true;
                     myCollider.enabled = true;
                     apertureLight.SetActive(true);
                 }
                 else
                 {
-                    rend.enabled = false;//gameObject.SetActive(false);
+                    rend.enabled = false;
                     myCollider.enabled = false;
                     apertureLight.SetActive(false);
                 }
@@ -54,14 +52,13 @@ public class SwitchPaddle : MonoBehaviour
             case "2": //stone
                 if (paddleType == 2)
                 {
-                    //gameObject.SetActive(false);
                     rend.enabled = true;
                     myCollider.enabled = true;
                     apertureLight.SetActive(true);
                 }
                 else
                 {
-                    rend.enabled = false;//gameObject.SetActive(false);
+                    rend.enabled = false;
                     myCollider.enabled = false;
                     apertureLight.SetActive(false);
                 }
@@ -69,14 +66,13 @@ public class SwitchPaddle : MonoBehaviour
             case "3": //light blue
                 if (paddleType == 3)
                 {
-                    //gameObject.SetActive(false);
                     rend.enabled = true;
                     myCollider.enabled = true;
                     apertureLight.SetActive(true);
                 }
                 else
                 {
-                    rend.enabled = false;//gameObject.SetActive(false);
+                    rend.enabled = false;
                     myCollider.enabled = false;
                     apertureLight.SetActive(false);
                 }
@@ -84,14 +80,13 @@ public class SwitchPaddle : MonoBehaviour
             case "4": //metal
                 if (paddleType == 4)
                 {
-                    //gameObject.SetActive(false);
                     rend.enabled = true;
                     myCollider.enabled = true;
                     apertureLight.SetActive(true);
                 }
                 else
                 {
-                    rend.enabled = false;//gameObject.SetActive(false);
+                    rend.enabled = false;
                     myCollider.enabled = false;
                     apertureLight.SetActive(false);
                 }

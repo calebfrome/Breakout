@@ -139,24 +139,24 @@ public class ScoreKeeping : MonoBehaviour
     // allows the Bricks class to communicate collision information
     public static void reportCollision(int brickLayer, bool crit)
     {
-        consecutiveBricksHit++;  // we hit a brick
+        consecutiveBricksHit++;
+        // check for combo bonus
         if (consecutiveBricksHit >= 10)
         {
             messageFrames = 100;
             msg = "Combo Bonus!";
         }
+        // player broke a brick
         if (crit)
         {
             consecutiveBricksBroken++;
             bricksRemaining[brickLayer]--;
+            // check for double combo bonus
             if (consecutiveBricksBroken > 10)
             {
                 messageFrames = 100;
                 msg = "Double Combo Bonus!";
             }
-
-            // debug
-            print(bricksRemaining[9] + " " + bricksRemaining[10] + " " + bricksRemaining[12] + " " + bricksRemaining[18]);
 
             // score 100 for breaking a brick
             baseScoreBoost = 100;
@@ -274,7 +274,7 @@ public class ScoreKeeping : MonoBehaviour
             paddleBonus -= 1000;
             threshold += 25;
         }
-        score += (paddleBonus * lives);
+        score += (paddleBonus * lives);  // scale by lives remaining
 
         // add time bonus
         int timeBonus = 10000;
@@ -284,7 +284,7 @@ public class ScoreKeeping : MonoBehaviour
             timeBonus -= 1000;
             threshold += 60;
         }
-        score += (timeBonus * lives);
+        score += (timeBonus * lives);  // scale by lives remaining
 
         // update UI
         scoreText.text = "Score: " + score;

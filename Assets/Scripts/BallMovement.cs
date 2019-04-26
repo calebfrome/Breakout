@@ -60,29 +60,4 @@ public class BallMovement : MonoBehaviour
                 break;
         }
     }
-
-    private void OnCollisionEnter(Collision collision)
-    {   
-        /*Rigidbody otherRb = collision.rigidbody;
-        if (otherRb == null) return;
-        
-        //For some reason it was having problems when it collided with the
-        //paddle, so these are some manual, hacky attempts to fix it.
-        if(otherRb.gameObject.tag.Equals("Brick"))
-        {   
-            float newY = rb.velocity.y;
-            print(newY);
-            if (newY < 0) {
-                if (Math.Abs(newY) < 0.01) newY -= 5.0f;
-                rb.velocity = new Vector3(rb.velocity.x,  Math.Abs(newY), rb.velocity.z);
-            }
-            else
-            {
-                if (Math.Abs(newY) < 0.01) newY += 5.0f;
-                rb.velocity = new Vector3(rb.velocity.x, -1 * Math.Abs(newY), rb.velocity.z);
-            }
-
-            print("collided");
-        }*/
-    }
 }
