@@ -97,7 +97,7 @@ public class Bricks : MonoBehaviour
     {
         if(delete > 0)
         {
-            if(delete > 1) Destroy(gameObject);
+            if (delete > 1) gameObject.SetActive(false); // Destroy(gameObject);
             delete += 1;
         }
         string input = Input.inputString;
