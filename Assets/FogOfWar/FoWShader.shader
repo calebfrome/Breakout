@@ -8,7 +8,7 @@
 
 	SubShader
 	{
-		Tags {"Queue"="Transparent" "RenderType"="Transparent" "LightMode"="ForwardBase"}
+		Tags {"Queue"="Transparent" "LightMode"="ForwardBase"}
 		Blend SrcAlpha OneMinusSrcAlpha
 		ZWrite off
 		LOD 200
