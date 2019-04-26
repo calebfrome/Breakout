@@ -19,7 +19,7 @@ public class ScoreKeeping : MonoBehaviour
     public Text scoreText;
     static string msg = "";
     static int messageFrames = -1;
-    int lives = 0;
+    static int lives = 0;
     bool gameActive = false;
     public Text messageText;
     public Text livesText;
@@ -54,7 +54,7 @@ public class ScoreKeeping : MonoBehaviour
         stonePaddle2Pos = stonePaddle2.transform.position;
         curvedPaddleSpherePos = curvedPaddleSphere.transform.position;
         curvedPaddleOtherPos = new Vector3[curvedPaddleOther.Length];
-        for (int i=0; i<curvedPaddleOther.Length; i++)
+        for (int i = 0; i < curvedPaddleOther.Length; i++)
         {
             curvedPaddleOtherPos.SetValue(curvedPaddleOther[i].transform.position, i);
         }
@@ -101,7 +101,7 @@ public class ScoreKeeping : MonoBehaviour
         if (gameActive)
         {
             print("broken bricks:");
-            foreach(GameObject brick in bricks)
+            foreach (GameObject brick in bricks)
             {
                 if (!brick.activeSelf) print(brick.name);
             }
@@ -160,22 +160,22 @@ public class ScoreKeeping : MonoBehaviour
 
             // score 100 for breaking a brick
             baseScoreBoost = 100;
-            
+
             // score 1000 for breaking all bricks of a certain type
-            int bonusFrames = 100;
+            int bonusFrames = 100 * lives;
             if (bricksRemaining[brickLayer] == 0) baseScoreBoost += 1000;
 
             // water brick bonus
             if (baseScoreBoost >= 1000 && brickLayer == 10)
             {
-                messageFrames = 100;
+                messageFrames = 100 * lives;
                 msg = "Diver Bonus!";
             }
 
             // wood brick bonus
             if (baseScoreBoost >= 1000 && brickLayer == 18)
             {
-                messageFrames = 100;
+                messageFrames = 100 * lives;
                 msg = "Carpenter Bonus!";
             }
 
@@ -187,7 +187,7 @@ public class ScoreKeeping : MonoBehaviour
                 bonusFrames *= 2;
                 if (baseScoreBoost >= 1000)
                 {
-                    messageFrames = 200;
+                    messageFrames = 200 * lives;
                     msg = "Miner Bonus!";
                 }
             }
@@ -198,7 +198,7 @@ public class ScoreKeeping : MonoBehaviour
                 bonusFrames *= 3;
                 if (baseScoreBoost >= 1000)
                 {
-                    messageFrames = 100;
+                    messageFrames = 100 * lives;
                     msg = "Blacksmith Bonus!";
                 }
             }
@@ -216,18 +216,20 @@ public class ScoreKeeping : MonoBehaviour
         // compute bonus multiplier
         // default is no bonus (x1.0)
         bonus = 1.0;
+        // add bonus for lives remaining
+        bonus += 0.1 * lives;
         // add bonus for bricks hit since last paddle hit
         bonus += (0.1 * consecutiveBricksHit);
         // add bonus for bricks broken since last paddle hit
         bonus += (0.2 * consecutiveBricksBroken);
         // add bonus for completing brick types
-        foreach(int framesRemaining in brickTypeBonusFrames.Values)
+        foreach (int framesRemaining in brickTypeBonusFrames.Values)
         {
             bonus += Math.Min(0.5, framesRemaining / 10.0);
         }
         // adjust ball light radius based on bonus
         float bonusAsFloat = (float)bonus;
-        apertureLight.transform.localScale = new Vector3(1 + bonusAsFloat/3, 1, 1 + bonusAsFloat/3);
+        apertureLight.transform.localScale = new Vector3(1 + bonusAsFloat / 3, 1, 1 + bonusAsFloat / 3);
 
         // update score
         score += (int)(baseScoreBoost * bonus);
@@ -272,17 +274,17 @@ public class ScoreKeeping : MonoBehaviour
             paddleBonus -= 1000;
             threshold += 25;
         }
-        score += paddleBonus;
+        score += (paddleBonus * lives);
 
         // add time bonus
         int timeBonus = 10000;
         threshold = 60;
-        while(Time.time > threshold && timeBonus > 0)
+        while (Time.time > threshold && timeBonus > 0)
         {
             timeBonus -= 1000;
             threshold += 60;
         }
-        score += timeBonus;
+        score += (timeBonus * lives);
 
         // update UI
         scoreText.text = "Score: " + score;
@@ -313,11 +315,11 @@ public class ScoreKeeping : MonoBehaviour
         stonePaddle1.transform.position = stonePaddle1Pos;
         stonePaddle2.transform.position = stonePaddle2Pos;
         curvedPaddleSphere.transform.position = curvedPaddleSpherePos;
-        for (int i=0; i<curvedPaddleOther.Length; i++)
+        for (int i = 0; i < curvedPaddleOther.Length; i++)
         {
             curvedPaddleOther[i].transform.position = curvedPaddleOtherPos[i];
         }
-        
+
         // stop ball motion
         rb.velocity = new Vector3(0.0f, 0.0f, 0.0f);
     }
@@ -325,7 +327,7 @@ public class ScoreKeeping : MonoBehaviour
     // set the ball in motion after losing a life / starting a new game
     void ActivateGame()
     {
-        gameActive = true; 
+        gameActive = true;
 
         // reset lives, score, and bricks if new game
         if (lives == 0)
